@@ -20,9 +20,9 @@ public class UserManager {
 
     public void addUser(UserInfo user) { users.add(user); }
 
-    public boolean checkUserOnList(String username, String password) {
+    public boolean checkUserOnList(String email, String password) {
         for (UserInfo user : users) {
-            if (user.getUserEmail().equals(username) && user.getUserPassword().equals(password))
+            if (user.getUserEmail().equals(email) && user.getUserPassword().equals(password))
                 return true;
         }
         return false;

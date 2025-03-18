@@ -1,4 +1,4 @@
-package model.user;
+package controller;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
